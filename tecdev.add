@@ -1,0 +1,4 @@
+#!MC 1100
+# $!LoadAddon "|TECHOME|/lib/libguibld"
+$!LoadAddon "|$TECADDONDIR|/libtest01"
+
