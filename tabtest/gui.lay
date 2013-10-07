@@ -1,0 +1,1583 @@
+#!MC 1000
+$!VarSet |LFBD| = 'C:\davido\V90\AddOns\Sample\tabtest'
+$!SETSTYLEBASE FACTORY
+$!PAPER 
+  BACKGROUNDCOLOR = WHITE
+  ISTRANSPARENT = NO
+  ORIENTPORTRAIT = NO
+  SHOWGRID = NO
+  SHOWRULER = NO
+  SHOWPAPER = YES
+  PAPERSIZE = LETTER
+  PAPERSIZEINFO
+    {
+    LETTER
+      {
+      WIDTH = 8.5
+      HEIGHT = 11
+      LEFTHARDCLIPOFFSET = 0.125
+      RIGHTHARDCLIPOFFSET = 0.125
+      TOPHARDCLIPOFFSET = 0.125
+      BOTTOMHARDCLIPOFFSET = 0.125
+      }
+    CUSTOM1
+      {
+      WIDTH = 3
+      HEIGHT = 3
+      }
+    }
+  RULERSPACING = ONEINCH
+  PAPERGRIDSPACING = HALFINCH
+  REGIONINWORKAREA
+    {
+    X1 = -0.05
+    Y1 = -0.05
+    X2 = 11.05
+    Y2 = 8.55
+    }
+$!COLORMAP 
+  CONTOURCOLORMAP = SMRAINBOW
+$!COLORMAPCONTROL RESETTOFACTORY
+### Frame Number 1 ###
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM34
+  HEADERCOLOR = CUSTOM1
+  XYPOS
+    {
+    X = 3.0843
+    Y = 1.7931
+    }
+  WIDTH = 3.5465
+  HEIGHT = 2.3733
+$!FRAMENAME  = 'FORMPAGE=T ID=1' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.49433278557
+    GRSPACING = 0.5
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKGROUP = 3
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 10.7851936811
+    Y = 82.185074935
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Homer' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 10.7851936811
+    Y = 67.2023676377
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Apples' 
+  TEXT = '~7   Apples' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 10.7851936811
+    Y = 54.9942357658
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Oranges' 
+  TEXT = '~7   Oranges' 
+### Frame Number 2 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM34
+  HEADERCOLOR = CUSTOM2
+  XYPOS
+    {
+    X = 3.0843
+    Y = 1.7931
+    }
+  WIDTH = 3.5465
+  HEIGHT = 2.3733
+$!FRAMENAME  = 'FORMPAGE=T ID=2' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.49433278557
+    GRSPACING = 0.5
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKGROUP = 3
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 8.01242959797
+    Y = 84.4047352754
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Marge' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 20.2918133948
+    Y = 68.867112893
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Apples' 
+  TEXT = 'Apples' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 23.0645774779
+    Y = 47.7803396597
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Oranges' 
+  TEXT = 'Oranges' 
+### Frame Number 3 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM34
+  HEADERCOLOR = CUSTOM3
+  XYPOS
+    {
+    X = 3.0843
+    Y = 1.7931
+    }
+  WIDTH = 3.5465
+  HEIGHT = 2.3733
+$!FRAMENAME  = 'FORMPAGE=T ID=3' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.49433278557
+    GRSPACING = 0.5
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKGROUP = 3
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 4.44744720535
+    Y = 87.7342257859
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Bart' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 34.1556338106
+    Y = 40.0789212565
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = HOLLOW
+    MARGIN = 90
+    COLOR = CUSTOM2
+    FILLCOLOR = CUSTOM2
+    }
+  LINESPACING = 2.2
+  MACROFUNCTIONCOMMAND = 'AppleOrange' 
+  TEXT = '~7  Apples\n~7  Oranges' 
+### Frame Number 4 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM34
+  HEADERCOLOR = CUSTOM4
+  XYPOS
+    {
+    X = 3
+    Y = 0.68683
+    }
+  WIDTH = 3.4877
+  HEIGHT = 2.1511
+$!FRAMENAME  = 'FORMPAGE=T ID=1' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.62135651527
+    GRSPACING = 0.5
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKGROUP = 4
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 9.31906887697
+    Y = 82.4487742523
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Lisa' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 12.9441023434
+    Y = 60.4080974017
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 60
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'AppleOrange' 
+  TEXT = 'OPT:                            ' 
+### Frame Number 5 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM34
+  HEADERCOLOR = CUSTOM5
+  XYPOS
+    {
+    X = 3
+    Y = 0.68683
+    }
+  WIDTH = 3.4877
+  HEIGHT = 2.1511
+$!FRAMENAME  = 'FORMPAGE=T ID=2' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.49433278557
+    GRSPACING = 0.5
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.921655892148
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKGROUP = 4
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 8.40853875271
+    Y = 84.9596503605
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Maggie' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 41.6817077505
+    Y = 21.6993306606
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'AppleOrange' 
+  TEXT = 'SLST:                   \n\n\n\n\n' 
+### Frame Number 6 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM2
+  HEADERCOLOR = CUSTOM8
+  XYPOS
+    {
+    X = 2.0961
+    Y = 5.0066
+    }
+  WIDTH = 6.7617
+  HEIGHT = 3.0767
+$!FRAMENAME  = 'ID=7 TITLE="Test Option Menus" MODE=MODAL' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.00000366427
+    GRSPACING = 0.25
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.455020375624
+    GRSPACING = 0.1
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 4.91664791918
+    Y = 80.291770762
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 60
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Test' 
+  TEXT = 'OPT:                              ' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 46.8836743351
+    Y = 57.7049361625
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'AppendItem' 
+  TEXT = '<-- Append selection with' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 6.57870698207
+    Y = 58.1329948733
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'AppendItem' 
+  TEXT = 'TF:            ' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 22.5440892084
+    Y = 26.0290677418
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'DeleteAtPos' 
+  TEXT = 'Delete Selected Item' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 82.8256945544
+    Y = 11.4748874463
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'ItemCount' 
+  TEXT = 'Get Item Count...' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 81.7758168116
+    Y = 27.7408676694
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'DeleteAll' 
+  TEXT = 'Delete All Items' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 25.3678983097
+    Y = 8.90697327161
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'GetString' 
+  TEXT = 'Get Selected Item String' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 6.57870698207
+    Y = 41.8670051267
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Replace' 
+  TEXT = 'TF:            ' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 47.2094984622
+    Y = 41.8670019521
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Replace' 
+  TEXT = '<-- Replace selection with' 
+### Frame Number 7 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM2
+  HEADERCOLOR = WHITE
+  XYPOS
+    {
+    X = 1.9979
+    Y = 1.0029
+    }
+  WIDTH = 6.7055
+  HEIGHT = 6.9223
+$!FRAMENAME  = 'ID=4 TITLE="Form Test" MODE=MODELESS' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.0000039789
+    GRSPACING = 0.25
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.03233577558
+    GRSPACING = 0.1
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 5.37684377264
+    Y = 62.1756807543
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'FM1' 
+  TEXT = 'FM:Group=3                                  \n\n\n\n\n\n\n\n\n' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 5.58633901504
+    Y = 28.5419344368
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'FM2' 
+  TEXT = 'FM:Group=4                                 \n\n\n\n\n\n\n\n' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 77.8077038327
+    Y = 90.9138556646
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Homer' 
+  TEXT = 'Show Homer!' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 77.4791489151
+    Y = 81.6677865878
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Marge' 
+  TEXT = 'Show Marge!' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 75.7633621232
+    Y = 72.4217175111
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Bart' 
+  TEXT = 'Show Bart!' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 75.7633621232
+    Y = 63.6379518882
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Lisa' 
+  TEXT = 'Show Lisa!' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 78.2822831581
+    Y = 54.1607310845
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Maggie' 
+  TEXT = 'Show Maggie!' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 76.3969270272
+    Y = 28.5013336783
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Clear' 
+  TEXT = 'Clear output window' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 7.05261872563
+    Y = 6.26574158738
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Message' 
+  TEXT = 'TRO:           \n\n\n\n                                                                                                    ' 
+### Frame Number 8 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM2
+  HEADERCOLOR = GREEN
+  XYPOS
+    {
+    X = 4.4
+    Y = 0.7
+    }
+  WIDTH = 4.5
+  HEIGHT = 2.326
+$!FRAMENAME  = 'ID=8 TITLE="Test Scale Control" MODE=MODELESS' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1.00001448438
+    GRSPACING = 0.25
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.516896375702
+    GRSPACING = 0.1
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 40.010322727
+    Y = 26.785831852
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 110
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'TestScale' 
+  TEXT = 'SC:            ' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 9.10475866372
+    Y = 74.9127658174
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Show Display' 
+  TEXT = '~7   Show Numeric Display' 
+### Frame Number 9 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM2
+  HEADERCOLOR = BLUE
+  XYPOS
+    {
+    X = 1.4359
+    Y = 1.2927
+    }
+  WIDTH = 5.2304
+  HEIGHT = 0.83781
+$!FRAMENAME  = 'ID=9 TITLE="Test Spin Controls" MODE=MODELESS' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.999994379627
+    GRSPACING = 0.25
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.160179965432
+    GRSPACING = 0.01
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 64.2101844284
+    Y = 45.0711444964
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'TestSpin' 
+  TEXT = 'TFS:            ' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 3.56638065494
+    Y = 45.4953007451
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Enter a number from 1-100:' 
+### Frame Number 10 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM2
+  HEADERCOLOR = CUSTOM6
+  XYPOS
+    {
+    X = 0.39637
+    Y = 4.6773
+    }
+  WIDTH = 5.0338
+  HEIGHT = 1.7334
+$!FRAMENAME  = 'ID=5 TITLE="Dialog Button Test" MODE=MODELESS' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.999986659767
+    GRSPACING = 0.25
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.34434758553
+    GRSPACING = 0.1
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 49.7209294534
+    Y = 15.1773335937
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Launch' 
+  TEXT = 'Launch Dialog...' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 7.86015174531
+    Y = 80.3870148512
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'ActionArea' 
+  TEXT = '~7   Include Action Area Buttons' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 7.86015174531
+    Y = 58.5022244192
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Apply' 
+  TEXT = '~7   Include Apply Button' 
+### Frame Number 11 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM2
+  HEADERCOLOR = CUSTOM7
+  XYPOS
+    {
+    X = 2.6019
+    Y = 3.7949
+    }
+  WIDTH = 4.5
+  HEIGHT = 2.8002
+$!FRAMENAME  = 'ID=6 TITLE="Test Dialog" MODE=MODELESS' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.999983265251
+    GRSPACING = 0.25
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.62225625319
+    GRSPACING = 0.1
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 8.16822641937
+    Y = 84.3335791044
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'ApplySen' 
+  TEXT = '~7   Apply button is sensitive' 
+### Frame Number 12 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM2
+  HEADERCOLOR = GREEN
+  XYPOS
+    {
+    X = 0.4427
+    Y = 1.4046
+    }
+  WIDTH = 9.7399
+  HEIGHT = 6.9224
+$!FRAMENAME  = 'ID=1 MODE=MODELESS TITLE="Tab Test"' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.999992309544
+    GRSPACING = 0.25
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 0.710720517006
+    GRSPACING = 0.1
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 3.96958939599
+    Y = 61.7617234368
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'TAB1' 
+  TEXT = 'TAB:Group=1                                                                  \n\n\n\n\n\n\n\n' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 4.1157511436
+    Y = 23.7751056158
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'TAB2' 
+  TEXT = 'TAB:Group=2                                                                   \n\n\n\n\n\n\n' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 4.27868338517
+    Y = 3.43195497501
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Message' 
+  TEXT = 'TRO:                                           \n\n                                                                                                                                                       \n\n' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 74.6347755425
+    Y = 23.9170761993
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Clear' 
+  TEXT = 'Clear output window' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 62.6276131943
+    Y = 87.0612761238
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 60
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'ActiveTab' 
+  TEXT = 'OPT: OptionMenu5' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 88.6720654074
+    Y = 87.0612761238
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  TEXT = 'Set' 
+### Frame Number 13 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM26
+  HEADERCOLOR = RED
+  XYPOS
+    {
+    X = 0.61184
+    Y = 6.1787
+    }
+  WIDTH = 5.544
+  HEIGHT = 2.1511
+$!FRAMENAME  = 'TABPAGE=T ID=1 POS=1 TITLE="Homer"' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 2.5772860397
+    GRSPACING = 1
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 5.90995274996
+    Y = 81.2242922051
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Homer tab page' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 5.90995274996
+    Y = 63.4693025198
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Apples' 
+  TEXT = '~7  Apples' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 5.90995274996
+    Y = 50
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'Oranges' 
+  TEXT = '~7  Oranges' 
+### Frame Number 14 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM26
+  HEADERCOLOR = YELLOW
+  XYPOS
+    {
+    X = 2.1292
+    Y = 3.3472
+    }
+  WIDTH = 5.6027
+  HEIGHT = 1.9289
+$!FRAMENAME  = 'TABPAGE=T ID=1 POS=1 TITLE="Lisa"' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 2.90460884442
+    GRSPACING = 1
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKGROUP = 2
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 5.62007602217
+    Y = 58.1933084452
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 60
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'AppleOrange' 
+  TEXT = 'OPT:                              ' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 4.61713988707
+    Y = 83.4560094848
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Lisa tab page' 
+### Frame Number 15 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM26
+  HEADERCOLOR = PURPLE
+  XYPOS
+    {
+    X = 2.1292
+    Y = 3.3472
+    }
+  WIDTH = 5.6027
+  HEIGHT = 1.9289
+$!FRAMENAME  = 'TABPAGE=T ID=2 POS=2 TITLE="Maggie"' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 2.90460884442
+    GRSPACING = 1
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKGROUP = 2
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 50.5014680675
+    Y = 15.8612148115
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  MACROFUNCTIONCOMMAND = 'AppleOrange' 
+  TEXT = 'SLST:                         \n\n\n\n\n' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 4.86787392085
+    Y = 83.4560094848
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Maggie tab page' 
+### Frame Number 16 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM26
+  HEADERCOLOR = BLUE
+  XYPOS
+    {
+    X = 0.61184
+    Y = 6.1787
+    }
+  WIDTH = 5.544
+  HEIGHT = 2.1511
+$!FRAMENAME  = 'TABPAGE=T ID=2 POS=2 TITLE="Marge"' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 2.5772860397
+    GRSPACING = 1
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 14.658211269
+    Y = 65.9182666144
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Apples' 
+  TEXT = 'Apples' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 6.16334382611
+    Y = 84.2854973232
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Marge tab page' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 16.2036151408
+    Y = 43.2653487401
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = FILLED
+    MARGIN = 50
+    FILLCOLOR = CUSTOM2
+    }
+  ANCHOR = CENTER
+  MACROFUNCTIONCOMMAND = 'Oranges' 
+  TEXT = 'Oranges' 
+### Frame Number 17 ###
+$!CREATENEWFRAME 
+$!FRAMELAYOUT 
+  SHOWHEADER = NO
+  BACKGROUNDCOLOR = CUSTOM26
+  HEADERCOLOR = CYAN
+  XYPOS
+    {
+    X = 0.61184
+    Y = 6.1787
+    }
+  WIDTH = 5.544
+  HEIGHT = 2.1511
+$!FRAMENAME  = 'TABPAGE=T ID=3 POS=3 TITLE="Bart"' 
+$!SKETCHAXIS 
+  DEPXTOYRATIO = 1
+  DEFAULTVIEWPORTRIGHT = 100
+  XDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 2.5772860397
+    GRSPACING = 1
+    }
+  YDETAIL
+    {
+    RANGEMIN = 0
+    RANGEMAX = 1
+    GRSPACING = 0.1
+    }
+$!LINKING 
+  BETWEENFRAMES
+    {
+    LINKFRAMESIZEANDPOSITION = YES
+    }
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 7.43029920686
+    Y = 81.2242922051
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    MARGIN = 0.2
+    FILLCOLOR = CUSTOM2
+    }
+  TEXT = 'Bart tab page' 
+$!ATTACHTEXT 
+  XYZPOS
+    {
+    X = 41.8914855632
+    Y = 33.543847215
+    }
+  TEXTSHAPE
+    {
+    HEIGHT = 16
+    }
+  BOX
+    {
+    BOXTYPE = HOLLOW
+    MARGIN = 90
+    COLOR = CUSTOM2
+    FILLCOLOR = CUSTOM2
+    }
+  LINESPACING = 2.2
+  MACROFUNCTIONCOMMAND = 'AppleOrange' 
+  TEXT = '~7  Apples\n~7  Oranges' 
+$!REMOVEVAR |LFBD|
+$!SETSTYLEBASE CONFIG

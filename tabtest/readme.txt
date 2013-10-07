@@ -1,0 +1,1 @@
+This add-on demonstrates use of many dialog controls in an add-on.  
